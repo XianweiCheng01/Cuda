@@ -3,4 +3,4 @@ Create the "data" folder
 Download the dataset and save in "data" folder.
 
 Compile command:
-nvcc *.cu -arch=compute_20
+nvcc *.cu -arch=compute_20 -lcublas
